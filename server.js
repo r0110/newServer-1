@@ -4,4 +4,5 @@ const port = 8888;
 
 app.get('/', (req, res) => res.send('On the master branch!'));
 
-app.listen(port, () => console.log(`App listening on ${port}.`));
+
+app.listen(port);
